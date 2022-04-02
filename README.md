@@ -29,6 +29,7 @@ do
     umount -chroot/$i
 done
 ```
+### Create .bashrc
 
 You could create a .bashrc script or something like it, which is appended to the chroot env's /root/.bashrc, which does all the mounting etc. Aftwerwards you restore the backed up .bashrc in /root and exit the chroot:
 
