@@ -57,3 +57,12 @@ mount none -t devpts /dev/pts
 ```
 
 The bashrcscript will then be executed when the root console is started. Ensure it's executable.
+
+### Automatic script 
+
+if you want to use a script and can execute it anytime please refer to this link copy the script and save it as mount-linux
+then move to directory /usr/bin
+
+(script mount)[https://gist.githubusercontent.com/0x3n0/40ec845b1def0b3ba42ed2aa4d157941/raw/88bc735976e8201d98e4ca969258551d78acd621/kalilinux]
+
+
