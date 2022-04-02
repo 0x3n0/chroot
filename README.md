@@ -1,4 +1,4 @@
-# chroot
+# Chroot liveCD or other linux distro
 
 The thing about chroots and `/proc`, `/sys` and `/dev/pts` is that these three filesystems are provided by the kernel, so they remain the same whether you mount within the chroot or from without. Indeed, you'll see, earlier on in the instructions:
 
